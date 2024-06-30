@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Example 1</title>
+</head>
+<body>
+<h1>Model 데이터 예제</h1>
+
+<div>
+    <p>Model1: <span th:text="${model1}"></span></p>
+    <hr>
+
+    <p>Model2: <span th:text="${model2}"></span></p>
+    <hr>
+
+    <p>Model3: <span th:text="${model3}"></span></p>
+    <hr>
+
+    <p>Model4 Name: <span th:text="${model4.name}"></span>, Age: <span th:text="${model4.age}"></span></p>
+    <hr>
+
+    <p>Model4 Name: <span th:text="${model4.getName()}"></span>, Age: <span th:text="${model4.getAge()}"></span></p>
+    <hr>
+
+    <p>Model5: <span th:text="${model5}"></span></p>
+    <hr>
+</div>
+
+</body>
+</html>
